@@ -6,12 +6,12 @@
 
 <Section.Root variant="none" className="relative py-16">
 	<Section.Content className="flex-col">
-		<div class="flex gap-0">
+		<div class="flex items-center justify-center">
 			<!-- Gray Content Block -->
-			<div class="flex-1 bg-gray-100 px-8 py-12 md:px-12 md:py-16">
+			<div class="flex-1 bg-gray-100 px-8 py-12 md:px-12 md:py-16 max-w-2/3">
 				<!-- Title -->
 				<h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl">
-					About <span class="font-bold">Me</span>
+					About <span class="font-black">Me</span>
 				</h2>
 
 				<!-- Description -->
@@ -57,6 +57,6 @@
 	<img
 		src={AboutImage}
 		alt="Gleb Kochergin with son"
-		class="absolute top-0 right-0 hidden h-96 w-80 object-cover grayscale lg:block"
+		class="absolute top-0 right-0 hidden h-96 w-80 object-cover grayscale lg:block -z-1"
 	/>
 </Section.Root>

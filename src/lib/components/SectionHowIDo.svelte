@@ -4,12 +4,12 @@
 </script>
 
 <Section.Root variant="none" className="py-16">
+	<!-- Header -->
+	<Section.Header>
+		<span class="font-light">How I</span>
+		<span class="font-bold">do</span>
+	</Section.Header>
 	<Section.Content className="flex flex-col gap-8">
-		<!-- Header -->
-		<Section.Header>
-			<span class="font-light">How I</span>
-			<span class="font-bold">do</span>
-		</Section.Header>
 
 		<!-- Description -->
 		<div class="mx-auto w-full max-w-2xl">
