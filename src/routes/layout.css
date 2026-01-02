@@ -8,7 +8,8 @@
 	--font-sans: 'Raleway', sans-serif;
 
 	/* COLORS */
-	--color-yellow-accent: #f0ff00;
+	--color-yellow-accent: #FFEA00;
+	--color-orange-accent: #ff8f00;
 	--color-light-gray: #f4f4f4;
 	--color-footer-bg: var(--footer-bg);
 }
