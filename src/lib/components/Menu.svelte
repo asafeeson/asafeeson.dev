@@ -1,21 +1,20 @@
 <script lang="ts">
-
 </script>
 
-<ul class="flex flex-col gap-4 lg:flex-row md:gap-6">
-    <li>
-        <a href="#aboutme" class="px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap">ABOUT me</a>
-    </li>
-    <li>
-        <a href="#whatido" class="px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap">WHAT I do</a>
-    </li>
-    <li>
-        <a href="#howido" class="px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap">HOW I do</a>
-    </li>
-    <li>
-        <a href="#services" class="px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap">my SERVICES</a>
-    </li>
-    <li>
-        <a href="#contact" class="px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap">CONTACT me</a>
-    </li>
+<ul class="flex flex-col gap-4 md:gap-6 lg:flex-row">
+	<li>
+		<a href="#aboutme" class="menu__item">ABOUT me</a>
+	</li>
+	<li>
+		<a href="#whatido" class="menu__item">WHAT I do</a>
+	</li>
+	<li>
+		<a href="#howido" class="menu__item">HOW I do</a>
+	</li>
+	<li>
+		<a href="#services" class="menu__item">my SERVICES</a>
+	</li>
+	<li>
+		<a href="#contact" class="menu__item">CONTACT me</a>
+	</li>
 </ul>

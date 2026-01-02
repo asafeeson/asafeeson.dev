@@ -20,17 +20,9 @@
 	<div class="container mx-auto flex items-center justify-between">
 		<!-- Logo/Brand Section -->
 		<div class="flex items-center justify-between gap-4">
-			<a href="/" class="h-12 w-12 overflow-hidden rounded-md hover:rounded-none transition-all"
+			<a href="/" class="h-12 w-12 overflow-hidden rounded-md transition-all hover:rounded-none"
 				><img src={Favicon} alt="Asafeeson.dev" srcset="" class="h-full w-full object-contain" /></a
 			>
-			<div>
-				<h1 class="text-xl leading-tight font-bold md:text-2xl">I'm Gleb Kochergin</h1>
-				<p class="text-sm md:text-base [&_span]:transition-all">
-					<span class=" hover:bg-black hover:text-yellow-accent">Developer,</span>
-					<span class=" hover:bg-black hover:text-yellow-accent">Business Analyst,</span>
-					<span class=" hover:bg-black hover:text-yellow-accent"> Product Owner </span>
-				</p>
-			</div>
 		</div>
 		<!-- Desktop Navigation -->
 		<div class="flex items-center justify-end">

@@ -18,13 +18,12 @@
 </script>
 
 <Section.Root variant="none" className=" py-16">
-	<Section.Content className="relative flex flex-col">
+	<Section.Header>
 		<!-- Title -->
-		<h2 class="mb-12 text-4xl md:text-5xl lg:text-6xl">
-			<span class="font-black">Clients</span>
-			<span class="font-extralight">&amp; Collaborations</span>
-		</h2>
-
+		<span class="font-black">Clients</span>
+		<span class="font-extralight">&amp; Collaborations</span>
+	</Section.Header>
+	<Section.Content className="relative flex flex-col">
 		<!-- Black Container -->
 		<div class="bg-black px-8 py-12 text-white md:px-12 md:py-16">
 			<!-- Description -->

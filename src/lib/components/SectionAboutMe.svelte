@@ -4,11 +4,13 @@
 	import Button from '$ui/Button.svelte';
 </script>
 
-<Section.Root variant="none" className="relative py-16">
-	<Section.Content className="flex-col">
+<Section.Root variant="none" className="py-16 relative">
+	<Section.Content className="flex-cols">
 		<div class="flex items-center justify-center">
 			<!-- Gray Content Block -->
-			<div class="flex-1 bg-gray-100 px-8 py-12 md:px-12 md:py-16 max-w-2/3">
+			<div
+				class="relative mx-4 flex flex-1 flex-col bg-gray-100 px-8 py-12 sm:mx-0 sm:max-w-2/3 md:px-12 md:py-16"
+			>
 				<!-- Title -->
 				<h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl">
 					About <span class="font-black">Me</span>
@@ -45,11 +47,12 @@
 				</div>
 
 				<!-- CTA Button -->
-				<Button href="#contact" variant="base">Get in Touch</Button>
+				<div>
+					<Button href="#contact" variant="base">Get in Touch</Button>
+				</div>
+				<!-- Yellow Accent Bar -->
+				<div class="absolute top-8 -right-10 h-full w-16 bg-yellow-accent sm:-right-8"></div>
 			</div>
-
-			<!-- Yellow Accent Bar -->
-			<div class="w-16 bg-yellow-accent"></div>
 		</div>
 	</Section.Content>
 
@@ -57,6 +60,6 @@
 	<img
 		src={AboutImage}
 		alt="Gleb Kochergin with son"
-		class="absolute top-0 right-0 hidden h-96 w-80 object-cover grayscale lg:block -z-1"
+		class="absolute top-0 right-0 -z-1 hidden h-96 w-80 object-cover grayscale sm:block"
 	/>
 </Section.Root>

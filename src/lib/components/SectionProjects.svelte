@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '$ui/Button.svelte';
 	import * as Section from '$ui/section';
+	import BTLBotLogo from '$img/btlbot-logo.avif';
 
 	const projects = [
 		{
@@ -17,30 +18,30 @@
 	];
 </script>
 
-<Section.Root variant="none" className="py-16">
+<Section.Root variant="none" className="py-16 bg-gray-50">
+	<!-- Header -->
+	<Section.Header className="mb-12">
+		My <span class="font-bold">Projects</span>
+	</Section.Header>
 	<Section.Content className="flex-col gap-12">
-		<!-- Header -->
-		<h2 class="bg-yellow-accent px-4 py-2 text-4xl md:text-5xl lg:text-6xl">
-			My <span class="font-bold">Projects</span>
-		</h2>
-
 		<!-- Projects List -->
 		{#each projects as project}
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<!-- Left Column: Project Name & Tagline -->
-				<div class="flex flex-col gap-4">
-					<h3
+				<div class="flex flex-col items-start gap-4">
+					<img src={BTLBotLogo} alt="{project.name} logo" class="h-14 object-contain" />
+					<!-- <h3
 						class={`${project.logoStyle} bg-clip-text text-5xl font-bold text-transparent md:text-6xl lg:text-7xl`}
 					>
 						{project.name}
-					</h3>
-					<p class="text-xl leading-relaxed font-light md:text-2xl lg:text-3xl">
+					</h3> -->
+					<p class="text-xl leading-relaxed font-light md:text-xl lg:text-2xl">
 						{project.tagline}
 					</p>
 				</div>
 
 				<!-- Right Column: Description & CTA -->
-				<div class="flex flex-col gap-6">
+				<div class="flex flex-col gap-3">
 					{#each project.description as paragraph}
 						<p class="text-base leading-relaxed">
 							{paragraph}
