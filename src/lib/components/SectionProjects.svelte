@@ -23,7 +23,7 @@
 	<Section.Header className="mb-12">
 		My <span class="font-black">Projects</span>
 	</Section.Header>
-	<Section.Content className="flex-col gap-12">
+	<Section.Content className="flex flex-col gap-12">
 		<!-- Projects List -->
 		{#each projects as project}
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">

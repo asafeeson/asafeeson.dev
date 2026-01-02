@@ -51,7 +51,7 @@
 					<Button href="#contact" variant="base">Get in Touch</Button>
 				</div>
 				<!-- Yellow Accent Bar -->
-				<div class="absolute top-8 -right-10 h-full w-16 bg-yellow-accent sm:-right-8"></div>
+				<div class="absolute hidden sm:block top-8 -right-10 h-full w-16 bg-yellow-accent sm:-right-8"></div>
 			</div>
 		</div>
 	</Section.Content>

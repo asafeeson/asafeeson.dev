@@ -17,7 +17,7 @@
 </script>
 
 <header class={cn('bg-gray-100 py-6', className)}>
-	<div class="container mx-auto flex items-center justify-between">
+	<div class="container mx-auto flex items-center justify-between px-8 sm:px-0">
 		<!-- Logo/Brand Section -->
 		<div class="flex items-center justify-between gap-4">
 			<a href="/" class="h-12 w-12 overflow-hidden rounded-md transition-all hover:rounded-none"

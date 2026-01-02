@@ -25,6 +25,6 @@
 			<Button href="#contact" variant="base">Get in touch</Button>
 		</div>
 
-		<img src={HeroImage} alt="Me and Family" class="inset-0 mx-auto w-full max-w-md" />
+		<img src={HeroImage} alt="Me and Family" class="inset-0 mx-auto w-full max-w-md mt-8 sm:mt-0" />
 	</Section.Content>
 </Section.Root>
