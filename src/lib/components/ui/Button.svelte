@@ -8,13 +8,13 @@
 		children?: Snippet;
 		className?: string;
 		variant?: 'base' | 'inverse';
-	}
+	};
 	let { children, href, variant = 'base', className, ...restProps }: Props = $props();
 </script>
 
 <a
 	{href}
-	class={cn("btn", variant === 'inverse' && "btn-inverse", className)}
+	class={cn(variant === 'base' && 'btn', variant === 'inverse' && 'btn-inverse', className)}
 	{...restProps}
 >
 	{@render children?.()}
