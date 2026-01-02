@@ -3,40 +3,40 @@
 
 	const services = [
 		{
-			title: 'Web Apps',
+			title: 'Web Applications',
 			description:
-				"Looking for a reliable developer for your ideas? I'm here to help! As a Full Stack Developer, I create solutions tailored to your unique needs. From payment systems to CRM, WMS, corporate chats, I can create any service you need. I analyze your needs and tasks to create a web application that helps you achieve your goals.",
+				'Custom web services tailored to your business — from CRMs and internal tools to AI-powered platforms. I focus on clarity, performance, and long-term maintainability.',
 			icon: 'web'
 		},
 		{
-			title: 'Mobile Apps',
+			title: 'Mobile Applications',
 			description:
-				'Looking for a full stack developer who can create high-performing mobile apps? Look no further. With expertise in both iOS and Android platforms, I can create apps that work seamlessly across devices. Utilizing cross-platform frameworks, your mobile app will be user-friendly, fast, and engaging.',
+				'Cross-platform mobile apps for iOS and Android. Fast, reliable, and tightly integrated with backend and AI services.',
 			icon: 'mobile'
 		},
 		{
-			title: 'Coach and consulting',
+			title: 'Chatbots & AI Assistants',
 			description:
-				'My consulting and coaching services are designed to help teams of small and medium sizes achieve their goals. With a focus on strategic sessions, I use my experience to provide expert guidance and support to you or your team. Let\'s work together to create a plan that delivers results.',
-			icon: 'coach'
-		},
-		{
-			title: 'Chat Bots',
-			description:
-				'I specialize in chat bot development using the Telegram platform. Whether you need a simple bot or a more complex one that can handle payments and user interactions, I have the skills and expertise to bring your vision to life.',
+				'Telegram bots and AI assistants — from simple automation to payment-enabled, data-aware systems.',
 			icon: 'bot'
 		},
 		{
 			title: 'API Development',
 			description:
-				'I create robust and scalable APIs tailored to your business needs. Whether you need REST, GraphQL, or real-time APIs, I design solutions that integrate seamlessly with your existing systems and support your growth.',
+				'Robust, scalable APIs: REST, streaming, real-time integrations. Designed for growth and easy integration.',
 			icon: 'api'
 		},
 		{
-			title: 'AI & ML Solutions',
+			title: 'AI & Computer Vision',
 			description:
-				'Transform your business with AI-powered solutions. I specialize in computer vision, machine learning models, and intelligent automation that drive efficiency and unlock new opportunities for your organization.',
+				'AI solutions that work with real data: document processing, image & video analysis, automation pipelines, business-focused ML solutions.',
 			icon: 'ai'
+		},
+		{
+			title: 'Consulting & Coaching',
+			description:
+				'Strategic sessions for founders and teams: architecture & AI strategy, MVP planning, technical decision support, team guidance.',
+			icon: 'coach'
 		}
 	];
 </script>

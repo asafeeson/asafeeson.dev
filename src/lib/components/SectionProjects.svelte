@@ -1,13 +1,15 @@
 <script lang="ts">
+	import Button from '$ui/Button.svelte';
 	import * as Section from '$ui/section';
 
 	const projects = [
 		{
 			name: 'BTLbot',
-			tagline: 'Platform for managing BTL actions and promotions based on fiscal checks',
+			tagline:
+				'Platform for managing BTL campaigns using invocies, fiscal checks, and any other type of proof-of-visit',
 			description: [
-				"BTLbot is a powerful platform where AI, computer vision, data processing, user-friendly interfaces, and automation come together to drive business success. It's more than just a chatbot—it's a comprehensive solution designed to streamline and optimize BTL campaigns across both offline and digital channels.",
-				'The platform automates tracking, monitoring, and interaction with key stakeholders, including end customers, promoters, mystery shoppers, and sales representatives. By leveraging advanced technologies, BTLbot enhances operational efficiency, improves data accuracy, and provides actionable insights, making BTL marketing more effective and measurable.'
+				'BTLbot is a production-grade platform combining: AI & computer vision, data processing, automation, user-friendly interfaces. It helps businesses manage interactions with: end customers, promoters, mystery shoppers, sales representatives.',
+				'Result: improved operational efficiency, better data accuracy, measurable marketing outcomes.'
 			],
 			url: 'https://btlbot.kz',
 			logoStyle: 'bg-gradient-to-r from-pink-500 to-orange-400'
@@ -32,7 +34,7 @@
 					>
 						{project.name}
 					</h3>
-					<p class="text-xl font-light leading-relaxed md:text-2xl lg:text-3xl">
+					<p class="text-xl leading-relaxed font-light md:text-2xl lg:text-3xl">
 						{project.tagline}
 					</p>
 				</div>
@@ -46,14 +48,15 @@
 					{/each}
 
 					<div class="mt-4">
-						<a
+						<Button
 							href={project.url}
+							className="mt-4"
+							variant="base"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="inline-block border-2 border-black px-6 py-2 font-medium transition-colors hover:bg-black hover:text-white"
 						>
 							Go to website
-						</a>
+						</Button>
 					</div>
 				</div>
 			</div>

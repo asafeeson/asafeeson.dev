@@ -79,7 +79,7 @@
 					class:bg-black={index !== currentIndex}
 					aria-label={`Go to testimonial ${index + 1}`}
 					disabled={isTransitioning}
-				/>
+				></button>
 			{/each}
 		</div>
 	</Section.Content>

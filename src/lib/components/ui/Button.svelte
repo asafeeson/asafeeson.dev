@@ -1,15 +1,20 @@
 <script lang="ts">
+	import { cn } from '$utils/utils';
 	import type { Snippet } from 'svelte';
-	interface Props {
+	import type { HTMLAnchorAttributes, HTMLAttributes } from 'svelte/elements';
+
+	type Props = HTMLAnchorAttributes & {
 		href: string;
 		children?: Snippet;
+		className?: string;
+		variant?: 'base' | 'inverse';
 	}
-	let { children, href, ...restProps }: Props = $props();
+	let { children, href, variant = 'base', className, ...restProps }: Props = $props();
 </script>
 
 <a
 	{href}
-	class="box-content inline-block border border-transparent bg-black px-8 py-3 text-white transition-all hover:border hover:border-black hover:bg-transparent hover:text-black"
+	class={cn("btn", variant === 'inverse' && "btn-inverse", className)}
 	{...restProps}
 >
 	{@render children?.()}

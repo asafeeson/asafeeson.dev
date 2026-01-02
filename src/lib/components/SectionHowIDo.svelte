@@ -12,55 +12,92 @@
 		</Section.Header>
 
 		<!-- Description -->
-		<div class="mx-auto w-2/3">
+		<div class="mx-auto w-full max-w-2xl">
 			<p class="mb-8 text-center text-base leading-relaxed md:text-lg">
-				As a Full Stack Developer, I have carefully selected the technological stack that will help
-				me craft high-quality applications in a timely and cost-effective manner. I am committed to
-				delivering top-grade solutions that meet your specifications, budget and timeline. My main
-				tech stack is...
+				<strong>AI-Driven, Not AI-Dependent</strong>
+				<br /><br />
+				I actively use modern AI tools and AI-assisted development to accelerate delivery — especially for MVPs, prototypes, and early validation.
+				<br /><br />
+				At the same time, I rely on strong engineering fundamentals, architecture, and experience to ensure: system stability, data safety, scalability, predictable delivery.
+				<br /><br />
+				<em>AI helps me move faster. Engineering experience ensures things work.</em>
 			</p>
 		</div>
 
-		<!-- Developer Tools List -->
-		<div
-			class="mx-auto flex justify-center w-full flex-wrap gap-x-4 gap-y-2 text-2xl sm:max-w-2/3 md:text-3xl lg:text-4xl"
-		>
-			<span class="bg-black px-2 py-1 text-white">Python</span>
-			<span class="font-light">Django</span>
-			<span class="bg-red-500 px-2 py-1 text-white">Svelte</span>
-			<span class="font-light">Prisma</span>
-			<span class="font-bold">Drizzle</span>
-			<span class="font-light">Flutter</span>
+		<!-- Tech Stack Sections -->
+		<div class="flex flex-col gap-8">
+			<!-- Modern AI Stack -->
+			<div class="mx-auto w-full max-w-2xl">
+				<h3 class="mb-4 text-2xl font-bold">Modern AI Stack</h3>
+				<div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-lg md:text-xl">
+					<span class="bg-blue-500 px-2 py-1 text-white font-light">OpenAI API</span>
+					<span class="font-light">Google AI SDK (Gemini)</span>
+					<span class="font-light">Vercel AI SDK</span>
+					<span class="font-light">LangChain</span>
+					<span class="font-light">RAG</span>
+					<span class="font-light">Hugging Face</span>
+					<span class="font-light">Vector Databases</span>
+					<span class="font-light">OpenCV, YOLOv8</span>
+				</div>
+			</div>
 
-			<span class="w-full" />
+			<!-- Full-Stack Engineering -->
+			<div class="mx-auto w-full max-w-2xl">
+				<h3 class="mb-4 text-2xl font-bold">Full-Stack Engineering</h3>
+				<div class="space-y-3">
+					<div>
+						<p class="font-bold text-lg mb-2">Backend</p>
+						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
+							<span class="bg-black px-2 py-1 text-white">Python</span>
+							<span class="font-light">Django</span>
+							<span class="font-light">FastAPI</span>
+							<span class="font-light">Litestar</span>
+							<span class="font-light">Node.js / TypeScript</span>
+							<span class="font-light">NestJS, Hono, Elysia</span>
+						</div>
+					</div>
+					<div>
+						<p class="font-bold text-lg mb-2">Frontend & Mobile</p>
+						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
+							<span class="bg-red-500 px-2 py-1 text-white">Svelte</span>
+							<span class="font-light">Flutter</span>
+						</div>
+					</div>
+					<div>
+						<p class="font-bold text-lg mb-2">Data & APIs</p>
+						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
+							<span class="font-light">PostgreSQL</span>
+							<span class="font-bold">Redis</span>
+							<span class="font-light">REST, Streaming & Real-time APIs</span>
+						</div>
+					</div>
+				</div>
+			</div>
 
-			<span class="bg-yellow-accent px-2 py-1 font-light">Litestar</span>
-			<span class="font-light">FastApi</span>
-			<span class="bg-yellow-accent px-2 py-1 font-bold">JavaScript</span>
-			<span class="font-light">PostgreSQL</span>
-			<span class="font-bold">Redis</span>
-			<span class="font-light">HTML</span>
+			<!-- DevOps & Infrastructure -->
+			<div class="mx-auto w-full max-w-2xl">
+				<h3 class="mb-4 text-2xl font-bold">DevOps & Infrastructure</h3>
+				<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
+					<span class="font-light">Docker</span>
+					<span class="font-bold">Nginx</span>
+					<span class="font-light">Traefik</span>
+					<span class="font-light">Nginx Unit</span>
+					<span class="font-light">Cloud-ready Deployments</span>
+					<span class="font-light">ELK, Grafana, Prometheus</span>
+				</div>
+			</div>
 
-			<span class="w-full" />
-
-			<span class="font-light">CSS</span>
-			<span class="bg-gray-200 px-2 py-1 font-light">OpenCV</span>
-			<span class="font-light">YOLOv8</span>
-			<span class="font-light">Docker</span>
-			<span class="font-bold">Nginx</span>
-			<span class="font-light">Traefik</span>
-
-			<span class="w-full" />
-
-			<span class="font-light">Nginx Unit</span>
-			<span class="font-bold">ELK</span>
-			<span class="font-light">Grafana</span>
-			<span class="font-light">Prometheus</span>
-			<span class="font-light">Directus</span>
-
-			<span class="w-full" />
-
-			<span class="font-bold">Wagtail</span>
+			<!-- Vibe Coding -->
+			<div class="mx-auto w-full max-w-2xl bg-gray-100 px-6 py-4">
+				<h3 class="mb-3 text-2xl font-bold">Vibe Coding — Used Responsibly</h3>
+				<p class="text-base leading-relaxed">
+					I use <strong>vibe coding and AI-assisted workflows</strong> where they make sense — primarily for: MVPs, prototypes, rapid iterations, internal tools.
+					<br /><br />
+					However: architecture, core business logic, security-critical components, data flows & performance are designed, reviewed, and validated manually.
+					<br /><br />
+					<em>Fast where possible. Careful where required.</em>
+				</p>
+			</div>
 		</div>
 	</Section.Content>
 </Section.Root>

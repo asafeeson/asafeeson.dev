@@ -6,7 +6,7 @@
 	<!-- Yellow accent bar -->
 	<div class="absolute left-0 top-0 h-full w-16 bg-yellow-accent"></div>
 
-	<Section.Content className="max-w-[980px] flex-col">
+	<Section.Content className="flex-col">
 		<!-- Title -->
 		<h2 class="mb-12 text-4xl md:text-5xl lg:text-6xl">
 			<span class="font-bold">clients</span>
@@ -17,8 +17,7 @@
 		<div class="bg-black px-8 py-12 text-white md:px-12 md:py-16">
 			<!-- Description -->
 			<p class="mb-8 text-center text-lg leading-relaxed">
-				Here are just a few of the companies and organizations that I have had the pleasure of working
-				with.
+				I've worked with startups and established organizations, including:
 			</p>
 
 			<!-- Clients Grid -->
@@ -34,17 +33,12 @@
 				<!-- Row 2 -->
 				<div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
 					<span class="font-light">Sber</span>
-					<span class="inline-block border border-white px-2 py-1 font-light">Barbus</span>
-					<span class="font-light">Italdizain</span>
-					<span class="font-light">WorldPost</span>
 					<span class="font-bold">Aquafor</span>
+									<span class="font-light">Eurasian Development Bank</span>
 				</div>
 
 				<!-- Row 3 -->
 				<div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
-					<span class="font-light">Eurasian Development Bank</span>
-					<span class="font-light">RELOCODE</span>
-					<span class="font-bold">ROST</span>
 				</div>
 			</div>
 		</div>

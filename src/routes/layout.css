@@ -1,20 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
 @theme {
+	/* FONT */
+	--font-sans: 'Raleway', sans-serif;
+
+	/* COLORS */
 	--color-yellow-accent: #f0ff00;
 	--color-light-gray: #f4f4f4;
-	--color-footer-bg: var(--footer-bg)
+	--color-footer-bg: var(--footer-bg);
 }
 
 @custom-variant dark (&:is(.dark *));
 
-
 :root {
-	--footer-bg: #1c1c1c
+	--footer-bg: #1c1c1c;
 }
 
 .dark {
-	--footer-bg: #ff8f00
+	--footer-bg: #ff8f00;
 }
 
+@layer components {
+	.btn-inverse {
+		@apply inline-block border border-white px-8 py-3 font-medium text-white transition-colors hover:bg-white hover:text-black;
+	}
+	.btn {
+		@apply inline-block border border-black px-8 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white;
+	}
+}
