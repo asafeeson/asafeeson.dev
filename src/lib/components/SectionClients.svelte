@@ -9,7 +9,7 @@
 		{ name: 'ROST', style: 'font-light text-white opacity-75 hover:opacity-100 transition' },
 		{ name: 'Freedom Finance', style: 'font-light text-black bg-white bg-opacity-20 px-2 py-1' },
 		{ name: 'Sber', style: 'font-light text-gray-400' },
-		{ name: 'Aquafor', style: 'font-black tracking-[0.2em]' },
+		{ name: 'Aquafor', style: 'font-black' },
 		{ name: 'Hansa', style: 'font-bold drop-shadow-lg' },
 		{ name: 'Eurasian Development Bank', style: 'px-1 font-light text-white' }
 	];
@@ -17,13 +17,13 @@
 	const shuffledClients = shuffle(clients);
 </script>
 
-<Section.Root variant="none" className=" py-16">
+<Section.Root variant="none" className="py-16">
 	<Section.Header>
 		<!-- Title -->
 		<span class="font-black">Clients</span>
 		<span class="font-extralight">&amp; Collaborations</span>
 	</Section.Header>
-	<Section.Content className="relative flex flex-col">
+	<Section.Content className="relative flex flex-col max-w-2/3">
 		<!-- Black Container -->
 		<div class="bg-black px-8 py-12 text-white md:px-12 md:py-16">
 			<!-- Description -->
