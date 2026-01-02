@@ -6,7 +6,7 @@
 <Section.Root variant="none" className="py-16">
 	<!-- Header -->
 	<Section.Header>
-		What I <span class="font-bold">do</span>
+		What I <span class="font-black">do</span>
 	</Section.Header>
 	<!-- Content -->
 	<Section.Content className="flex flex-col gap-8">

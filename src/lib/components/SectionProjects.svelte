@@ -21,7 +21,7 @@
 <Section.Root variant="none" className="py-16 bg-gray-50">
 	<!-- Header -->
 	<Section.Header className="mb-12">
-		My <span class="font-bold">Projects</span>
+		My <span class="font-black">Projects</span>
 	</Section.Header>
 	<Section.Content className="flex-col gap-12">
 		<!-- Projects List -->

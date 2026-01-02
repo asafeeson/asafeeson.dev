@@ -7,7 +7,7 @@
 	<!-- Header -->
 	<Section.Header>
 		<span class="font-light">How I</span>
-		<span class="font-bold">do</span>
+		<span class="font-black">do</span>
 	</Section.Header>
 	<Section.Content className="flex flex-col gap-8">
 
