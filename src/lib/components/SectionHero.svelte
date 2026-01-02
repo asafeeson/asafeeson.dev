@@ -11,7 +11,7 @@
 				Gleb Kochergin
 			</h1>
 			<h2 class="mb-6 px-2 text-2xl font-light sm:px-0 md:text-3xl">
-				AI-First Full-Stack Developer & Product Engineer
+				Full-Stack Developer & Product Engineer
 			</h2>
 			<p class="mb-6 max-w-2xl px-2 text-base leading-relaxed sm:px-0 md:text-lg">
 				I help startups and growing teams build <span class="font-bold">AI-driven products</span> —
