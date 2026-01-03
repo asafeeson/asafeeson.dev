@@ -1,12 +1,11 @@
 <script lang="ts">
-	import * as Section from '$ui/section';
+	import AIIcon from '$icons/ai.svg';
+	import ChatAudio from '$icons/chat-audio.svg';
 	import ApiIcon from '$icons/dashboard.svg';
 	import HelpQuestionIcon from '$icons/help-question.svg';
-	import EyeIcon from '$icons/eye.svg';
-	import CompassIcon from '$icons/compass.svg';
 	import HTMLIcon from '$icons/html.svg';
 	import MobileIcon from '$icons/mobile.svg';
-	import ChatAudio from '$icons/chat-audio.svg';
+	import * as Section from '$ui/section';
 
 	const services = [
 		{
@@ -37,7 +36,7 @@
 			title: 'AI & Computer Vision',
 			description:
 				'AI solutions that work with real data: document processing, image & video analysis, automation pipelines, business-focused ML solutions.',
-			icon: EyeIcon
+			icon: AIIcon
 		},
 		{
 			title: 'Consulting & Coaching',
@@ -54,7 +53,7 @@
 			{#each services as service}
 				<div class="flex flex-col gap-2">
 					<!-- Icon -->
-					<img src={service.icon} alt={service.title + " icon"} aria-hidden="true" class="h-8 w-8"/>
+					<img src={service.icon} alt={service.title + " icon"} aria-hidden="true" class="h-8 w-8 text-orange-accent"/>
 
 					<!-- Title -->
 					<h3 class="text-2xl font-light">
