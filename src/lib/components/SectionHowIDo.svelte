@@ -10,15 +10,16 @@
 		<span class="font-black">do</span>
 	</Section.Header>
 	<Section.Content className="flex flex-col gap-8">
-
 		<!-- Description -->
 		<div class="mx-auto w-full max-w-2xl">
 			<p class="mb-8 text-center text-base leading-relaxed md:text-lg">
 				<strong>AI-Driven, Not AI-Dependent</strong>
 				<br /><br />
-				I actively use modern AI tools and AI-assisted development to accelerate delivery — especially for MVPs, prototypes, and early validation.
+				I actively use modern AI tools and AI-assisted development to accelerate delivery — especially
+				for MVPs, prototypes, and early validation.
 				<br /><br />
-				At the same time, I rely on strong engineering fundamentals, architecture, and experience to ensure: system stability, data safety, scalability, predictable delivery.
+				At the same time, I rely on strong engineering fundamentals, architecture, and experience to ensure:
+				system stability, data safety, scalability, predictable delivery.
 				<br /><br />
 				<em>AI helps me move faster. Engineering experience ensures things work.</em>
 			</p>
@@ -30,7 +31,7 @@
 			<div class="mx-auto w-full max-w-2xl">
 				<h3 class="mb-4 text-2xl font-bold">Modern AI Stack</h3>
 				<div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-lg md:text-xl">
-					<span class="bg-blue-500 px-2 py-1 text-white font-light">OpenAI API</span>
+					<span class="bg-blue-500 px-2 py-1 font-light text-white">OpenAI API</span>
 					<span class="font-light">Google AI SDK (Gemini)</span>
 					<span class="font-light">Vercel AI SDK</span>
 					<span class="font-light">LangChain</span>
@@ -46,7 +47,7 @@
 				<h3 class="mb-4 text-2xl font-bold">Full-Stack Engineering</h3>
 				<div class="space-y-3">
 					<div>
-						<p class="font-bold text-lg mb-2">Backend</p>
+						<p class="mb-2 text-lg font-bold">Backend</p>
 						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
 							<span class="bg-black px-2 py-1 text-white">Python</span>
 							<span class="font-light">Django</span>
@@ -57,14 +58,14 @@
 						</div>
 					</div>
 					<div>
-						<p class="font-bold text-lg mb-2">Frontend & Mobile</p>
+						<p class="mb-2 text-lg font-bold">Frontend & Mobile</p>
 						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
 							<span class="bg-red-500 px-2 py-1 text-white">Svelte</span>
 							<span class="font-light">Flutter</span>
 						</div>
 					</div>
 					<div>
-						<p class="font-bold text-lg mb-2">Data & APIs</p>
+						<p class="mb-2 text-lg font-bold">Data & APIs</p>
 						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
 							<span class="font-light">PostgreSQL</span>
 							<span class="font-bold">Redis</span>
@@ -88,12 +89,17 @@
 			</div>
 
 			<!-- Vibe Coding -->
-			<div class="mx-auto w-full max-w-2xl bg-gray-100 px-6 py-4">
-				<h3 class="mb-3 text-2xl font-bold">Vibe Coding — Used Responsibly</h3>
+			<div class="mx-auto w-full max-w-2xl bg-gray-100 px-6 py-4 dark:bg-dark-bg">
+				<h3 class="mb-3 text-2xl font-light">
+					Vibe <span class="font-black">Coding</span> — Used
+					<span class="font-black">Responsibly</span>
+				</h3>
 				<p class="text-base leading-relaxed">
-					I use <strong>vibe coding and AI-assisted workflows</strong> where they make sense — primarily for: MVPs, prototypes, rapid iterations, internal tools.
+					I use <strong>vibe coding and AI-assisted workflows</strong> where they make sense —
+					primarily for: MVPs, prototypes, rapid iterations, internal tools.
 					<br /><br />
-					However: architecture, core business logic, security-critical components, data flows & performance are designed, reviewed, and validated manually.
+					However: architecture, core business logic, security-critical components, data flows & performance
+					are designed, reviewed, and validated manually.
 					<br /><br />
 					<em>Fast where possible. Careful where required.</em>
 				</p>
