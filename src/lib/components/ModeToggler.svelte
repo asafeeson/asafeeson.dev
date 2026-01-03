@@ -1,19 +1,20 @@
 <script lang="ts">
 	import BulbOffIcon from '$icons/bulb-off.svg';
 	import BulbOnIcon from '$icons/bulb-on.svg';
+	import { cn } from '$utils/utils';
 	import { toggleMode } from 'mode-watcher';
-	import type { Snippet } from 'svelte';
+	
 	interface Props {
-		children?: Snippet;
+		className?: string;
 	}
 
-	let { children }: Props = $props();
+	let { className }: Props = $props();
 </script>
 
 <button
 	onclick={toggleMode}
 	aria-label="Toggle light/dark mode"
-	class="flex rounded-full border px-1 py-0.5 transition-all dark:border-orange-accent"
+	class={cn("flex rounded-full border px-1 py-0.5 transition-all dark:border-orange-accent active:scale-95", className)}
 >
 	<img
 		src={BulbOffIcon}

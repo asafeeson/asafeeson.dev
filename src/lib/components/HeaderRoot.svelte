@@ -3,6 +3,8 @@
 	import Menu from './Menu.svelte';
 	import Favicon from '$assets/favicon.svg';
 	import ModeToggler from './ModeToggler.svelte';
+	import AsafeesonLogo from './icons/AsafeesonLogo.svelte';
+	import { fade } from 'svelte/transition';
 
 	interface Props {
 		class?: string;
@@ -17,12 +19,12 @@
 	}
 </script>
 
-<header class={cn('bg-gray-100 dark:bg-dark-bg py-6', className)}>
+<header class={cn('bg-gray-100 py-6 dark:bg-dark-bg', className)}>
 	<div class="container mx-auto flex items-center justify-between px-8 sm:px-0">
 		<!-- Logo/Brand Section -->
 		<div class="flex items-center justify-between gap-4">
 			<a href="/" class="h-12 w-12 overflow-hidden rounded-md transition-all hover:rounded-none"
-				><img src={Favicon} alt="Asafeeson.dev" srcset="" class="h-full w-full object-contain" /></a
+				><AsafeesonLogo class="h-full w-full object-contain" /></a
 			>
 		</div>
 		<!-- Desktop Navigation -->
@@ -30,7 +32,7 @@
 			<nav class="hidden lg:block">
 				<Menu />
 			</nav>
-			<ModeToggler/>
+			<ModeToggler className="hidden" />
 
 			<!-- Mobile Menu Button -->
 			<button
@@ -67,7 +69,10 @@
 
 		<!-- Mobile Navigation -->
 		{#if mobileMenuOpen}
-			<div class="fixed inset-0 z-50 bg-gray-100 text-black lg:hidden">
+			<div
+				class="fixed inset-0 z-50 flex h-screen w-screen flex-col bg-gray-100 pb-10 lg:hidden dark:bg-dark-bg"
+				transition:fade="{{delay: 250, duration: 300}}"
+			>
 				<div class="flex items-center justify-end px-8 py-6">
 					<button
 						class="p-2"
@@ -91,10 +96,13 @@
 						</svg>
 					</button>
 				</div>
-				<nav class="px-8">
+
+				<nav class="mb-12 h-full">
 					<Menu onSelect={() => (mobileMenuOpen = false)} />
-					<ModeToggler/>
 				</nav>
+				<div class="flex justify-end px-8">
+					<ModeToggler />
+				</div>
 			</div>
 		{/if}
 	</div>

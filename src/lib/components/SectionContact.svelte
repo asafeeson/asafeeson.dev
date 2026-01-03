@@ -55,8 +55,8 @@
 							<!-- <img src={contact.icon} alt={contact.label + ' icon'} aria-hidden="true"/> -->
 							<contact.Icon />
 						</div>
-						<h3 class="mb-2 text-xl font-bold md:text-2xl">{contact.label}</h3>
-						<p class="text-center text-base md:text-lg">{contact.value}</p>
+						<h3 class="text-xl font-bold md:text-2xl">{contact.label}</h3>
+						<!-- <p class="text-center text-base md:text-lg">{contact.value}</p> -->
 					</a>
 				{/each}
 			</div>
