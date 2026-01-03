@@ -12,16 +12,22 @@
 	--color-orange-accent: #ff8f00;
 	--color-light-gray: #f4f4f4;
 	--color-footer-bg: var(--footer-bg);
+	--color-dark-bg: #1c1c1c;
+	--color-dark-accent: #303030;
+
+	--color-icon-fill: var(--icon-fill);
 }
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
 	--footer-bg: #1c1c1c;
+	--icon-fill: #000000;
 }
 
 .dark {
-	--footer-bg: #ff8f00;
+	--footer-bg: #1c1c1c;
+	--icon-fill: #FFFFFF;
 }
 
 @layer components {
@@ -29,7 +35,7 @@
 		@apply inline-block border border-white px-8 py-3 font-medium text-white transition-colors hover:bg-white hover:text-black;
 	}
 	.btn {
-		@apply inline-block border border-black px-8 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white;
+		@apply inline-block border border-black dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black px-8 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white;
 	}
 	.menu__item {
 		@apply px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap;

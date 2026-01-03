@@ -3,7 +3,7 @@
 	import * as Section from '$ui/section';
 </script>
 
-<Section.Root variant="colored" className="py-16">
+<Section.Root variant="colored" className="py-16 dark:bg-dark-bg">
 	<Section.Content className="flex flex-col items-center justify-center text-center gap-8">
 		<h2 class="text-4xl leading-tight font-bold md:text-5xl lg:text-6xl">
 			<span class="block">

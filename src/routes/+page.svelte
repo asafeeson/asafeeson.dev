@@ -15,6 +15,7 @@
 	import SectionClients from '$lib/components/SectionClients.svelte';
 	import SectionContactCta from '$lib/components/SectionContactCta.svelte';
 	import SectionTestimonials from '$lib/components/SectionTestimonials.svelte';
+	import SectionContact from '$lib/components/SectionContact.svelte';
 
 	const { data }: PageProps = $props();
 
@@ -108,6 +109,7 @@
 	<SectionAboutMe />
 	<SectionServices />
 	<SectionClients />
+	<SectionContact />
 	<SectionContactCta />
 	<SectionTestimonials />
 </MainRoot>

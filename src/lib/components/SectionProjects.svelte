@@ -18,7 +18,7 @@
 	];
 </script>
 
-<Section.Root variant="none" className="py-16 bg-gray-50">
+<Section.Root variant="none" className="py-16 bg-gray-50" id="projects">
 	<!-- Header -->
 	<Section.Header className="mb-12">
 		My <span class="font-black">Projects</span>

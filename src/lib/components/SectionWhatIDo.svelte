@@ -3,7 +3,7 @@
 	import TruckImage from '$img/me-riding-truck.avif';
 </script>
 
-<Section.Root variant="none" className="py-16">
+<Section.Root variant="none" className="py-16" id="whatido">
 	<!-- Header -->
 	<Section.Header>
 		What I <span class="font-black">do</span>

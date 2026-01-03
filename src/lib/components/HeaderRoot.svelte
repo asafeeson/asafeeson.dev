@@ -2,6 +2,7 @@
 	import { cn } from '$utils/utils';
 	import Menu from './Menu.svelte';
 	import Favicon from '$assets/favicon.svg';
+	import ModeToggler from './ModeToggler.svelte';
 
 	interface Props {
 		class?: string;
@@ -16,7 +17,7 @@
 	}
 </script>
 
-<header class={cn('bg-gray-100 py-6', className)}>
+<header class={cn('bg-gray-100 dark:bg-dark-bg py-6', className)}>
 	<div class="container mx-auto flex items-center justify-between px-8 sm:px-0">
 		<!-- Logo/Brand Section -->
 		<div class="flex items-center justify-between gap-4">
@@ -29,6 +30,7 @@
 			<nav class="hidden lg:block">
 				<Menu />
 			</nav>
+			<ModeToggler/>
 
 			<!-- Mobile Menu Button -->
 			<button
@@ -91,6 +93,7 @@
 				</div>
 				<nav class="px-8">
 					<Menu onSelect={() => (mobileMenuOpen = false)} />
+					<ModeToggler/>
 				</nav>
 			</div>
 		{/if}

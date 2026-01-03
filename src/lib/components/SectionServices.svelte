@@ -1,10 +1,10 @@
 <script lang="ts">
-	import AIIcon from '$icons/ai.svg';
-	import ChatAudio from '$icons/chat-audio.svg';
-	import ApiIcon from '$icons/dashboard.svg';
-	import HelpQuestionIcon from '$icons/help-question.svg';
-	import HTMLIcon from '$icons/html.svg';
-	import MobileIcon from '$icons/mobile.svg';
+	import AI from './icons/AI.svelte';
+	import ChatAudio from './icons/ChatAudio.svelte';
+	import Dashboard from './icons/Dashboard.svelte';
+	import HelpQuestion from './icons/HelpQuestion.svelte';
+	import HTML from './icons/HTML.svelte';
+	import Mobile from './icons/Mobile.svelte';
 	import * as Section from '$ui/section';
 
 	const services = [
@@ -12,13 +12,13 @@
 			title: 'Web Applications',
 			description:
 				'Custom web services tailored to your business — from CRMs and internal tools to AI-powered platforms. I focus on clarity, performance, and long-term maintainability.',
-			icon: HTMLIcon
+			icon: HTML
 		},
 		{
 			title: 'Mobile Applications',
 			description:
 				'Cross-platform mobile apps for iOS and Android. Fast, reliable, and tightly integrated with backend and AI services.',
-			icon: MobileIcon
+			icon: Mobile
 		},
 		{
 			title: 'Chatbots & AI Assistants',
@@ -30,19 +30,19 @@
 			title: 'API Development',
 			description:
 				'Robust, scalable APIs: REST, streaming, real-time integrations. Designed for growth and easy integration.',
-			icon: ApiIcon
+			icon: Dashboard
 		},
 		{
 			title: 'AI & Computer Vision',
 			description:
 				'AI solutions that work with real data: document processing, image & video analysis, automation pipelines, business-focused ML solutions.',
-			icon: AIIcon
+			icon: AI
 		},
 		{
 			title: 'Consulting & Coaching',
 			description:
 				'Strategic sessions for founders and teams: architecture & AI strategy, MVP planning, technical decision support, team guidance.',
-			icon: HelpQuestionIcon
+			icon: HelpQuestion
 		}
 	];
 </script>
@@ -53,7 +53,7 @@
 			{#each services as service}
 				<div class="flex flex-col gap-2">
 					<!-- Icon -->
-					<img src={service.icon} alt={service.title + " icon"} aria-hidden="true" class="h-8 w-8 text-orange-accent"/>
+					<svelte:component this={service.icon} class="h-8 w-8 text-orange-accent" />
 
 					<!-- Title -->
 					<h3 class="text-2xl font-light">
