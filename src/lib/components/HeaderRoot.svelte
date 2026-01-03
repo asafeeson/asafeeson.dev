@@ -29,10 +29,12 @@
 		</div>
 		<!-- Desktop Navigation -->
 		<div class="flex items-center justify-end">
-			<nav class="hidden lg:block">
-				<Menu />
-			</nav>
-			<ModeToggler className="hidden" />
+			<div class="flex gap-4 items-center">
+				<nav class="hidden lg:block">
+					<Menu />
+				</nav>
+				<ModeToggler className="hidden sm:flex" />
+			</div>
 
 			<!-- Mobile Menu Button -->
 			<button

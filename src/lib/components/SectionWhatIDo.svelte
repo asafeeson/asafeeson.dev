@@ -27,7 +27,7 @@
 					<span class="font-light">Mobile Applications</span>
 					<span class="font-light">Chatbots & AI Assistants</span>
 					<span class="font-light">API & Backend Systems</span>
-					<span class="inline-block bg-yellow-accent px-2 font-light">AI & Computer Vision</span>
+					<span class="inline-block bg-yellow-accent px-2 font-light dark:text-black">AI & Computer Vision</span>
 					<span class="font-light">Consulting & Coaching</span>
 				</div>
 			</div>

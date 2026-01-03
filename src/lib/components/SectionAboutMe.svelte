@@ -4,7 +4,7 @@
 	import Button from '$ui/Button.svelte';
 </script>
 
-<Section.Root variant="none" className="py-16 relative">
+<Section.Root variant="none" className="py-16 relative" id="aboutme">
 	<Section.Content className="flex-cols ">
 		<div class="flex items-center justify-center">
 			<!-- Gray Content Block -->

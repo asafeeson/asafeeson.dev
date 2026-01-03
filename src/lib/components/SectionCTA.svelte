@@ -8,7 +8,7 @@
 		<h2 class="text-4xl leading-tight font-bold md:text-5xl lg:text-6xl">
 			<span class="block">
 				Let's Build Something
-				<span class="inline-block bg-yellow-accent px-2">That Matters</span>
+				<span class="inline-block bg-yellow-accent px-2 dark:text-black">That Matters</span>
 			</span>
 		</h2>
 		<p class="max-w-1/2">
