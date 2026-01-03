@@ -9,7 +9,7 @@
 		<div class="flex items-center justify-center">
 			<!-- Gray Content Block -->
 			<div
-				class="relative mx-4 flex flex-1 flex-col bg-gray-100 px-8 py-12 sm:mx-0 sm:max-w-2/3 md:px-12 md:py-16"
+				class="relative flex flex-1 flex-col bg-gray-100 px-8 py-12 sm:mx-0 sm:max-w-2/3 md:px-12 md:py-16"
 			>
 				<!-- Title -->
 				<h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl">
