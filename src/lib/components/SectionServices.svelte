@@ -6,6 +6,7 @@
 	import CompassIcon from '$icons/compass.svg';
 	import HTMLIcon from '$icons/html.svg';
 	import MobileIcon from '$icons/mobile.svg';
+	import ChatAudio from '$icons/chat-audio.svg';
 
 	const services = [
 		{
@@ -24,7 +25,7 @@
 			title: 'Chatbots & AI Assistants',
 			description:
 				'Telegram bots and AI assistants — from simple automation to payment-enabled, data-aware systems.',
-			icon: 'bot'
+			icon: ChatAudio
 		},
 		{
 			title: 'API Development',
