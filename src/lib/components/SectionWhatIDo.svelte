@@ -10,13 +10,14 @@
 	</Section.Header>
 	<!-- Content -->
 	<Section.Content className="flex flex-col gap-8">
-
 		<div class="flex flex-col sm:flex-row sm:gap-4">
 			<!-- Left Content -->
-			<div class="flex-1 px-4 sm:px-0">
+			<div class="flex flex-1 flex-col items-start justify-center px-4 sm:px-0">
 				<!-- Description -->
 				<p class="mb-8 text-base leading-relaxed md:text-lg">
-					I help teams design, build, and scale <span class="font-bold">AI-powered web and mobile products</span>.
+					I help teams design, build, and scale <span class="font-bold"
+						>AI-powered web and mobile products</span
+					>.
 				</p>
 
 				<!-- Services List -->
