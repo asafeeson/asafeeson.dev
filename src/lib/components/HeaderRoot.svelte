@@ -65,9 +65,34 @@
 
 		<!-- Mobile Navigation -->
 		{#if mobileMenuOpen}
-			<nav class="mt-4 lg:hidden">
-				<Menu />
-			</nav>
+			<div class="fixed inset-0 z-50 bg-gray-100 text-black lg:hidden">
+				<div class="flex items-center justify-end px-8 py-6">
+					<button
+						class="p-2"
+						onclick={toggleMobileMenu}
+						aria-label="Close mobile menu"
+						aria-expanded={mobileMenuOpen}
+					>
+						<svg
+							class="h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"
+							></path>
+						</svg>
+					</button>
+				</div>
+				<nav class="px-8">
+					<Menu onSelect={() => (mobileMenuOpen = false)} />
+				</nav>
+			</div>
 		{/if}
 	</div>
 </header>
