@@ -1,10 +1,9 @@
 <script lang="ts">
 	import { cn } from '$utils/utils';
+	import { fade } from 'svelte/transition';
 	import Menu from './Menu.svelte';
-	import Favicon from '$assets/favicon.svg';
 	import ModeToggler from './ModeToggler.svelte';
 	import AsafeesonLogo from './icons/AsafeesonLogo.svelte';
-	import { fade } from 'svelte/transition';
 
 	interface Props {
 		class?: string;
