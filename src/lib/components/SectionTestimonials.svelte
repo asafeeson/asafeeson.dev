@@ -84,7 +84,7 @@
 				<button
 					onclick={() => goToSlide(index)}
 					class="h-3 w-3 transition-colors"
-					class:bg-yellow-accent={index === currentIndex}
+					class:bg-orange-accent={index === currentIndex}
 					class:bg-black={index !== currentIndex}
 					class:dark:bg-dark-accent={index !== currentIndex}
 					aria-label={`Go to testimonial ${index + 1}`}
