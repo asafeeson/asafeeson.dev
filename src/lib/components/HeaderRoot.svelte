@@ -25,6 +25,7 @@
 			<a href="/" class="h-12 w-12 overflow-hidden rounded-md transition-all hover:rounded-none"
 				><AsafeesonLogo class="h-full w-full object-contain" /></a
 			>
+			<span class="text-sm">Fast where possible. Careful where required.</span>
 		</div>
 		<!-- Desktop Navigation -->
 		<div class="flex items-center justify-end">
