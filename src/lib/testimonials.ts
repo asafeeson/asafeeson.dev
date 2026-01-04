@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
 	},
 	{
 		quote:
-			'Working with Gleb was a great experience. He developed a 3D visualization system for our workshop that shows how our structures look in different real‑world conditions. By using Google’s Gemini Nano Banana model instead of expensive rendering tools, he achieved impressive quality with a smart and efficient approach. We were truly happy with the collaboration and the results.',
+			'Working with Gleb was a great experience. He developed a 3D visualization system for our workshop that shows how our structures look in different real‑world conditions. By leveraging Google’s Gemini Nano Banana model instead of costly rendering software, he helped us reduce expenses on tools and speed up the delivery of final photo-realistic images to our clients. We were truly happy with the collaboration and the results.',
 		author: 'Silvestr',
 		location: 'Estonia'
 	},
