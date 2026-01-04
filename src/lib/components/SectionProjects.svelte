@@ -12,15 +12,14 @@
 				'BTLbot is a production-grade platform combining: AI & computer vision, data processing, automation, user-friendly interfaces. It helps businesses manage interactions with: end customers, promoters, mystery shoppers, sales representatives.',
 				'Result: improved operational efficiency, better data accuracy, measurable marketing outcomes.'
 			],
-			url: 'https://btlbot.kz',
-			logoStyle: 'bg-gradient-to-r from-pink-500 to-orange-400'
+			url: 'https://btlbot.online',
 		}
 	];
 </script>
 
 <Section.Root variant="colored" className="py-16 " id="projects">
 	<!-- Header -->
-	<Section.Header className="mb-12">
+	<Section.Header >
 		My <span class="font-black">Projects</span>
 	</Section.Header>
 	<Section.Content className="flex flex-col gap-12">

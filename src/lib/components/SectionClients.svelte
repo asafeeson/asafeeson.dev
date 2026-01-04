@@ -17,7 +17,7 @@
 	const shuffledClients = shuffle(clients);
 </script>
 
-<Section.Root variant="none" className="py-16">
+<Section.Root variant="none" className="py-16 ">
 	<Section.Header>
 		<!-- Title -->
 		<span class="font-black">Clients</span>

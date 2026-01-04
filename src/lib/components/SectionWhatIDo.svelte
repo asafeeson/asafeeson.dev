@@ -5,7 +5,7 @@
 
 <Section.Root variant="none" className="py-16" id="whatido">
 	<!-- Header -->
-	<Section.Header>
+	<Section.Header className="mb-0">
 		What I <span class="font-black">do</span>
 	</Section.Header>
 	<!-- Content -->

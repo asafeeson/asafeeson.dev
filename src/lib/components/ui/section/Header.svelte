@@ -10,7 +10,7 @@
 	let { className, children }: Props = $props();
 </script>
 
-<div class={cn("relative flex h-20 items-center justify-start bg-yellow-accent px-4 py-2 sm:max-w-2/3", className)}>
+<div class={cn("relative flex h-20 items-center justify-start bg-yellow-accent px-4 py-2 sm:max-w-2/3 mb-12", className)}>
 	<!-- Title -->
 	<h2 class="text-4xl sm:absolute sm:-top-8 sm:left-4 md:text-5xl lg:text-6xl dark:text-black sm:text-black sm:dark:text-white">
 		{@render children()}
