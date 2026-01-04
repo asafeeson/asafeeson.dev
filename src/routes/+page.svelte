@@ -110,7 +110,6 @@
 	<SectionServices />
 	<SectionClients />
 	<SectionContact />
-	<SectionContactCta />
 	<SectionTestimonials />
 </MainRoot>
 <Footer></Footer>
