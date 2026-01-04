@@ -47,8 +47,8 @@
 	];
 </script>
 
-<Section.Root variant="none" className="py-16">
-	<Section.Content className="max-w-[980px] flex-col">
+<Section.Root variant="none" className="py-16" id="services">
+	<Section.Content class="mx-auto max-w-2/3">
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
 			{#each services as service}
 				<div class="flex flex-col gap-2">
