@@ -12,8 +12,9 @@
 			</span>
 		</h2>
 		<p class="max-w-1/2">
-			If you want a partner who delivers stable, practical, and technically sound solutions — from
-			MVPs to production-ready systems — let’s talk.
+			If you’re looking for a partner who understands business, masters technology, and applies AI
+			only where it adds real value — while delivering stable, practical, and technically sound
+			solutions from MVPs to production-ready systems — let’s talk.
 		</p>
 		<Button href="#contact">Contact me</Button>
 	</Section.Content>
