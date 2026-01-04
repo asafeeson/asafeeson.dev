@@ -30,11 +30,6 @@
 				<!-- Left Column: Project Name & Tagline -->
 				<div class="flex flex-col items-start gap-4">
 					<img src={BTLBotLogo} alt="{project.name} logo" class="h-14 object-contain" />
-					<!-- <h3
-						class={`${project.logoStyle} bg-clip-text text-5xl font-bold text-transparent md:text-6xl lg:text-7xl`}
-					>
-						{project.name}
-					</h3> -->
 					<p class="text-xl leading-relaxed font-light md:text-xl lg:text-2xl">
 						{project.tagline}
 					</p>
