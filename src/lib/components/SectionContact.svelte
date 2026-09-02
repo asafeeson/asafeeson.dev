@@ -31,9 +31,7 @@
 
 <Section.Root id="contact" variant="colored" className="py-16 md:py-20">
 	<Section.Header>
-		<h2 class="mb-4 text-4xl md:text-5xl lg:text-6xl">
-			Contact <span class="font-black">Me</span>
-		</h2>
+		Contact <span class="font-black">Me</span>
 	</Section.Header>
 
 	<Section.Content className="mt-12">
@@ -47,16 +45,15 @@
 						href={contact.href}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="group flex flex-col items-center justify-center bg-white dark:bg-black p-8 transition-all hover:bg-black hover:text-white md:p-12"
+						class="group flex flex-col items-center justify-center bg-white p-8 transition-[background-color,color] duration-200 hover:bg-black hover:text-white md:p-12 dark:bg-black"
 					>
 						<div
+							aria-hidden="true"
 							class="mb-4 h-8 w-8 text-black transition-colors group-hover:text-yellow-accent dark:text-white"
 						>
-							<!-- <img src={contact.icon} alt={contact.label + ' icon'} aria-hidden="true"/> -->
 							<contact.Icon />
 						</div>
 						<h3 class="text-xl font-bold md:text-2xl">{contact.label}</h3>
-						<!-- <p class="text-center text-base md:text-lg">{contact.value}</p> -->
 					</a>
 				{/each}
 			</div>

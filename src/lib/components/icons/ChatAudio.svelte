@@ -2,7 +2,14 @@
 	let props = $props();
 </script>
 
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+<svg
+	width="24"
+	height="24"
+	viewBox="0 0 24 24"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+	{...props}
+>
 	<path
 		d="M17 3C19.2091 3 21 4.9018 21 7.24779V14.6814C21 17.0274 19.2091 18.9292 17 18.9292H14.6667L12.12 20.9575C12.0489 21.0142 11.9511 21.0142 11.88 20.9575L9.33333 18.9292H7C4.79086 18.9292 3 17.0274 3 14.6814V7.24779C3 4.9018 4.79086 3 7 3H17Z"
 		stroke="currentColor"

@@ -25,6 +25,14 @@
 			<Button href="#contact" variant="base">Get in touch</Button>
 		</div>
 
-		<img src={HeroImage} alt="Me and Family" class="inset-0 mx-auto w-full max-w-md mt-8 sm:mt-0" />
+		<img
+			src={HeroImage}
+			alt="Gleb Kochergin with his family"
+			width="502"
+			height="775"
+			fetchpriority="high"
+			decoding="async"
+			class="inset-0 mx-auto mt-8 w-full max-w-md sm:mt-0"
+		/>
 	</Section.Content>
 </Section.Root>

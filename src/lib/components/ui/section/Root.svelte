@@ -12,6 +12,9 @@
 	let { children, variant = 'none', className, ...restProps }: Props = $props();
 </script>
 
-<section class={cn(variant === 'colored' && 'bg-light-gray dark:bg-dark-bg', className)} {...restProps}>
-		{@render children()}
+<section
+	class={cn(variant === 'colored' && 'bg-light-gray dark:bg-dark-bg', className)}
+	{...restProps}
+>
+	{@render children()}
 </section>

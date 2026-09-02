@@ -7,7 +7,9 @@
 	<Section.Content className="flex flex-col items-center justify-center">
 		<!-- Description Text -->
 		<div class="mb-8 max-w-2/3">
-			<p class="text-center text-lg leading-10 sm:leading-relaxed text-white md:text-xl lg:text-2xl">
+			<p
+				class="text-center text-lg leading-10 text-white sm:leading-relaxed md:text-xl lg:text-2xl"
+			>
 				If you’re looking for a partner who <span class="font-bold"
 					>understands business, masters technology,</span
 				>

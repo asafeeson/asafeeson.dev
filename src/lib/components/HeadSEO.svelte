@@ -84,10 +84,14 @@
 	{#if jsonLd}
 		{#if Array.isArray(jsonLd)}
 			{#each jsonLd as schema}
-				<script type="application/ld+json">{{JSON.stringify(schema)}}</script>
+				<script type="application/ld+json">
+{{JSON.stringify(schema)}}
+				</script>
 			{/each}
 		{:else}
-			<script type="application/ld+json">{{JSON.stringify(jsonLd)}}</script>
+			<script type="application/ld+json">
+{{JSON.stringify(jsonLd)}}
+			</script>
 		{/if}
 	{/if}
 

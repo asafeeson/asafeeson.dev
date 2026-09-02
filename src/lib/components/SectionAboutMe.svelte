@@ -9,7 +9,7 @@
 		<div class="flex items-center justify-center">
 			<!-- Gray Content Block -->
 			<div
-				class="relative flex flex-1 flex-col bg-gray-100 dark:bg-black px-8 py-12 sm:mx-0 sm:max-w-2/3 md:px-12 md:py-16"
+				class="relative flex flex-1 flex-col bg-gray-100 px-8 py-12 sm:mx-0 sm:max-w-2/3 md:px-12 md:py-16 dark:bg-black"
 			>
 				<!-- Title -->
 				<h2 class="mb-8 text-4xl md:text-5xl lg:text-6xl">
@@ -48,10 +48,12 @@
 
 				<!-- CTA Button -->
 				<div>
-					<Button href="#contact" variant="base">Get in Touch</Button>
+					<Button href="#contact" variant="base">Get in touch</Button>
 				</div>
 				<!-- Yellow Accent Bar -->
-				<div class="absolute hidden sm:block top-8 -right-10 h-full w-16 bg-yellow-accent sm:-right-8"></div>
+				<div
+					class="absolute top-8 -right-10 hidden h-full w-16 bg-yellow-accent sm:-right-8 sm:block"
+				></div>
 			</div>
 		</div>
 	</Section.Content>
@@ -59,7 +61,11 @@
 	<!-- Right Image (Positioned on Section Root) -->
 	<img
 		src={AboutImage}
-		alt="Gleb Kochergin with son"
+		alt="Gleb Kochergin with his son"
+		width="589"
+		height="500"
+		loading="lazy"
+		decoding="async"
 		class="absolute top-0 right-0 -z-1 hidden h-96 w-80 object-cover grayscale sm:block"
 	/>
 </Section.Root>

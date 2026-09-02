@@ -35,13 +35,13 @@
 			<!-- Navigation Links -->
 			<div>
 				<h3 class="mb-4 text-lg font-semibold text-white">Quick Links</h3>
-				<nav>
+				<nav aria-label="Footer navigation">
 					<ul class="space-y-2">
 						{#each navLinks as link}
 							<li>
 								<a
 									href={link.href}
-									class="text-sm transition-colors hover:text-white hover:underline"
+									class="inline-flex min-h-11 items-center text-sm transition-colors hover:text-white hover:underline"
 								>
 									{link.name}
 								</a>
@@ -60,7 +60,7 @@
 							href={social.url}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="transition-colors hover:text-white"
+							class="flex size-11 items-center justify-center transition-colors hover:text-white"
 							aria-label={social.name}
 						>
 							{#if social.icon === 'github'}
@@ -99,10 +99,7 @@
 
 		<!-- Bottom Bar -->
 		<div class="mt-8 border-t border-gray-800 pt-8 text-center text-sm">
-			<p>
-				© 1985-{currentYear} Gleb Kochergin aka Asafeeson. Created with
-				<span class="text-red-500">❤</span> for myself and my family.
-			</p>
+			<p>© 1985-{currentYear} Gleb Kochergin aka Asafeeson. Made for myself and my family.</p>
 		</div>
 	</Content>
 </Root>

@@ -10,6 +10,6 @@
 	let { className, children }: Props = $props();
 </script>
 
-<div class={cn("container mx-auto px-4 py-12", className)}>
+<div class={cn('container mx-auto px-4 py-12', className)}>
 	{@render children()}
 </div>

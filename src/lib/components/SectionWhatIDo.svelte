@@ -27,7 +27,9 @@
 					<span class="font-light">Mobile Applications</span>
 					<span class="font-light">Chatbots & AI Assistants</span>
 					<span class="font-light">API & Backend Systems</span>
-					<span class="inline-block bg-yellow-accent px-2 font-light dark:text-black">AI & Computer Vision</span>
+					<span class="inline-block bg-yellow-accent px-2 font-light dark:text-black"
+						>AI & Computer Vision</span
+					>
 					<span class="font-light">Consulting & Coaching</span>
 				</div>
 			</div>
@@ -36,7 +38,11 @@
 			<div class="flex flex-1 justify-end">
 				<img
 					src={TruckImage}
-					alt="Gleb Kochergin on truck"
+					alt="Gleb Kochergin on a truck"
+					width="442"
+					height="753"
+					loading="lazy"
+					decoding="async"
 					class="max-h-full object-contain grayscale"
 				/>
 			</div>

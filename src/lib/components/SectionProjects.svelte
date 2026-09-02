@@ -7,19 +7,19 @@
 		{
 			name: 'BTLbot',
 			tagline:
-				'Platform for managing BTL campaigns using invocies, fiscal checks, and any other type of proof-of-visit',
+				'Platform for managing BTL campaigns using invoices, fiscal checks, and any other type of proof-of-visit',
 			description: [
 				'BTLbot is a production-grade platform combining: AI & computer vision, data processing, automation, user-friendly interfaces. It helps businesses manage interactions with: end customers, promoters, mystery shoppers, sales representatives.',
 				'Result: improved operational efficiency, better data accuracy, measurable marketing outcomes.'
 			],
-			url: 'https://btlbot.app',
+			url: 'https://btlbot.app'
 		}
 	];
 </script>
 
 <Section.Root variant="colored" className="py-16 " id="projects">
 	<!-- Header -->
-	<Section.Header >
+	<Section.Header>
 		My <span class="font-black">Projects</span>
 	</Section.Header>
 	<Section.Content className="flex flex-col gap-12">
@@ -28,7 +28,15 @@
 			<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 				<!-- Left Column: Project Name & Tagline -->
 				<div class="flex flex-col items-start gap-4">
-					<img src={BTLBotLogo} alt="{project.name} logo" class="h-14 object-contain" />
+					<img
+						src={BTLBotLogo}
+						alt={`${project.name} logo`}
+						width="130"
+						height="66"
+						loading="lazy"
+						decoding="async"
+						class="h-14 object-contain"
+					/>
 					<p class="text-xl leading-relaxed font-light md:text-xl lg:text-2xl">
 						{project.tagline}
 					</p>

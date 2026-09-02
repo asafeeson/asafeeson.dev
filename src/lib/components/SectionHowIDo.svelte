@@ -72,6 +72,15 @@
 							<span class="font-light">REST, Streaming & Real-time APIs</span>
 						</div>
 					</div>
+					<div>
+						<p class="mb-2 text-lg font-bold">AI Code Governance</p>
+						<div class="flex flex-wrap gap-x-4 gap-y-2 text-lg md:text-xl">
+							<span class="font-light">Spec-driven agent workflows</span>
+							<span class="font-light">Review policies & quality gates</span>
+							<span class="font-light">CI security checks</span>
+							<span class="font-light">Scoped agent permissions</span>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -88,18 +97,22 @@
 				</div>
 			</div>
 
-			<!-- Vibe Coding -->
+			<!-- Agentic Engineering -->
 			<div class="mx-auto w-full max-w-2xl bg-gray-100 px-6 py-4 dark:bg-dark-bg">
 				<h3 class="mb-3 text-2xl font-light">
-					Vibe <span class="font-black">Coding</span> — Used
-					<span class="font-black">Responsibly</span>
+					Agentic <span class="font-black">Engineering</span>, Not Vibe
+					<span class="font-black">Coding</span>
 				</h3>
 				<p class="text-base leading-relaxed">
-					I use <strong>vibe coding and AI-assisted workflows</strong> where they make sense —
-					primarily for: MVPs, prototypes, rapid iterations, internal tools.
+					I work with AI agents the way a lead works with a strong team: I define the intent and the
+					spec, agents do the mechanical work, and I verify the output.
 					<br /><br />
-					However: architecture, core business logic, security-critical components, data flows & performance
-					are designed, reviewed, and validated manually.
+					Where agents run fast: MVPs, prototypes, rapid iterations, internal tools.
+					<br /><br />
+					Where I stay hands-on: architecture, core business logic, security-critical components, data
+					flows & performance — designed, reviewed, and validated manually.
+					<br /><br />
+					<strong>Spec first. Agents second. Review always.</strong>
 					<br /><br />
 					<em>Fast where possible. Careful where required.</em>
 				</p>

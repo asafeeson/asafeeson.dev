@@ -8,7 +8,7 @@
 	--font-sans: 'Raleway', sans-serif;
 
 	/* COLORS */
-	--color-yellow-accent: #FFEA00;
+	--color-yellow-accent: #ffea00;
 	--color-orange-accent: #ff8f00;
 	--color-light-gray: #f4f4f4;
 	--color-footer-bg: var(--footer-bg);
@@ -21,23 +21,83 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+	color-scheme: light;
 	--footer-bg: #1c1c1c;
 	--icon-fill: #000000;
+	--accent-fill: #ffea00;
+	--focus-ring: #ff8f00;
+	--z-skip: 60;
 }
 
 .dark {
+	color-scheme: dark;
 	--footer-bg: #1c1c1c;
-	--icon-fill: #FFFFFF;
+	--icon-fill: #ffffff;
+	--focus-ring: #ffea00;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-synthesis: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-wrap: balance;
+}
+
+p,
+li {
+	text-wrap: pretty;
+}
+
+:where(a, button):focus-visible {
+	outline: 3px solid var(--focus-ring);
+	outline-offset: 3px;
+}
+
+.skip-link {
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+	z-index: var(--z-skip);
+	transform: translateY(-200%);
+	background: var(--footer-bg);
+	padding: 0.75rem 1rem;
+	color: white;
+	transition: transform 150ms ease-out;
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
 }
 
 @layer components {
 	.btn-inverse {
-		@apply inline-block border border-white px-8 py-3 font-medium text-white transition-colors hover:bg-white hover:text-black;
+		@apply inline-flex min-h-11 items-center border border-white px-8 py-3 font-medium text-white transition-colors hover:bg-white hover:text-black;
 	}
 	.btn {
-		@apply inline-block border border-black dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black px-8 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white;
+		@apply inline-flex min-h-11 items-center border border-black px-8 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black;
 	}
 	.menu__item {
-		@apply px-2 py-1 font-medium transition-all hover:bg-yellow-accent hover:font-black whitespace-nowrap;
+		@apply inline-flex min-h-11 items-center rounded-md px-2 py-1 font-medium whitespace-nowrap transition-[background-color,color] hover:bg-yellow-accent hover:text-black;
 	}
 }

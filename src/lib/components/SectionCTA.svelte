@@ -16,6 +16,6 @@
 			only where it adds real value — while delivering stable, practical, and technically sound
 			solutions from MVPs to production-ready systems — let’s talk.
 		</p>
-		<Button href="#contact">Contact me</Button>
+		<Button href="#contact">Get in touch</Button>
 	</Section.Content>
 </Section.Root>
