@@ -12,7 +12,7 @@
 				'BTLbot is a production-grade platform combining: AI & computer vision, data processing, automation, user-friendly interfaces. It helps businesses manage interactions with: end customers, promoters, mystery shoppers, sales representatives.',
 				'Result: improved operational efficiency, better data accuracy, measurable marketing outcomes.'
 			],
-			url: 'https://btlbot.online',
+			url: 'https://btlbot.app',
 		}
 	];
 </script>
